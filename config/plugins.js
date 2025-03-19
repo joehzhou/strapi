@@ -4,9 +4,6 @@ module.exports = ({ env }) => ({
       jwtSecret: env("JWT_SECRET"),
     },
   },
-  "content-type-builder": {
-    enabled: true,
-  },
   upload: {
     config: {
       provider: "local",
